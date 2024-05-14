@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "enter a fruit name"
+read fruit
+for i in ${fruit[@]};
+do 
+echo "$i is a fruit"
+done
